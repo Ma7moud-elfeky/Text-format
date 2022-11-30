@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none !important;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  padding: 200px 5px;
+  z-index: 99;
+  overflow: hidden;
+}
+header::after {
+  content: "";
+  position: absolute;
+  background-image: url(../images/header-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0;
+  background-position: center;
+  z-index: -1;
+}
+header {
+  display: block;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+header .content {
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+header .content h3 {
+  margin: 20px;
+  line-height: 46px;
+  font-weight: 500;
+  font-size: 50px;
+  color: #fff;
+}
+header h5 {
+  margin: 40px 20px 20px 20px;
+  font-size: 20px;
+  line-height: 13px;
+  font-weight: 400;
+  color: #fff;
+}
+header .content .btn {
+  width: fit-content;
+  margin: 20px;
+  border: 1px solid #fff;
+  line-height: 10px;
+  padding: 20px 30px;
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 10px;
+}
+header .content .btn a {
+  color: #fff;
+}
+section div {
+  background-color: burlywood;
+}
+section div p {
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  font-size: 20px;
+  color: #fff;
+}
+
+#secendsection {
+  background-color: #fff;
+  color: burlywood;
+}
+#midelpart {
+  background-color: #fff;
+  color: burlywood;
+}
+#therdsection {
+  display: flex;
+  color: #fff;
+}
